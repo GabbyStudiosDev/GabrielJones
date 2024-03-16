@@ -23,15 +23,51 @@
         padding: 20px;
         box-sizing: border-box; /* Per includere il padding nel calcolo delle dimensioni */
     }
+
+    /* Stile per la tabella trasparente */
+    .tabella-trasparente {
+        background-color: transparent;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .tabella-trasparente td,
+    .tabella-trasparente th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .tabella-trasparente th {
+        background-color: #f2f2f2; /* Colore grigio per l'intestazione */
+    }
 </style>
 </head>
 <body>
 
 <div class="rettangolo">
-    <!-- Contenuto del rettangolo -->
+    <!-- Testo -->
     <h1> Gabriel Jones </h1>
     <h2> Chi sono? </h2>
-    <p> Descrizione del tuo sito qui...</p>
+    <p> Ciao a tutti, io mi chiamo Gabriel, sono nato l'11 giugno 2008 e sono un vero appassionato di tecnologia. Fin da giovane ho coltivato una passione per il mondo informatico e sono diventato un vero e proprio "nerd", dedicando gran parte del mio tempo libero alla creazione di siti web e all'esplorazione dei sistemi operativi. È incredibile quanto possa essere affascinante scoprire le infinite possibilità che la tecnologia ci offre!
+Oltre alla mia passione per la tecnologia, ho un altro grande amore nella mia vita: il mio cane Cico. È un adorabile amico a quattro zampe, con cui condivido momenti di gioia e divertimento ogni giorno. Cico ha solo tre anni, ma il suo affetto per me è infinito, e io non potrei immaginare la mia vita senza di lui.
+Se hai domande, suggerimenti o semplicemente vuoi fare quattro chiacchiere, non esitare a contattarmi all'indirizzo email gabriel.jones@gabbycentral.it. Sarà un piacere per me condividere le mie passioni e conoscere persone con interessi simili ai miei.</p>
+    
+    <!-- Tabella trasparente -->
+    <table class="tabella-trasparente">
+        <tr>
+            <th>Informazioni</th>
+            <td>Testo</td>
+        </tr>
+        <tr>
+            <th>Data di nascita</th>
+            <td>11 giugno 2008</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>gabriel.jones@gabbycentral.it</td>
+        </tr>
+    </table>
 </div>
 
 </body>
